@@ -15,5 +15,6 @@
     <applicationListeners>
         <listener class="com.github.moonchaserchen.hwideaplugin.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
+        <listener class="com.github.moonchaserchen.hwideaplugin.listeners.FilesOpenListener" topic="com.intellij.openapi.fileEditor.FileEditorManagerListener"/>
     </applicationListeners>
 </idea-plugin>
